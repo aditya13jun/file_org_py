@@ -15,10 +15,10 @@ row_count = len(button_values) #5
 column_count = len(button_values[0]) #4
 
 color_1 = "#D4D4D2"
-color_2 = "#1C1C1C"
-color_3 = "#505050"
-color_4 = "#FF9500"
-color_5 = "white"
+color_2 = "#ffff00"
+color_3 = "#0000ff"
+color_4 = "#ff00ff"
+color_5 = "#00ff00"
 
 window = tkinter.Tk()
 window.title("Calculator")
@@ -34,7 +34,7 @@ for row in range(row_count):
         button = tkinter.Button(frame, text=value, font=("Ariel", 30), width=column_count-1, height=1, command=lambda value=value: button_clicked(value))
 
         if value in top_Symbols:
-            button.config(foreground=color_2, background=color_1)
+            button.config(foreground=color_5, background=color_4)
         elif value in right_Symbols:
             button.config(foreground=color_5, background=color_4)
         else:
