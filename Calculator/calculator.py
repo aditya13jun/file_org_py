@@ -11,8 +11,8 @@ button_values = [
 right_Symbols = ["/", "x", "-", "+", "="]
 top_Symbols = ["AC", "+/-", "%"]
 
-row_count = len(button_values) #5
-column_count = len(button_values[0]) #4
+row_count = len(button_values) 
+column_count = len(button_values[0]) 
 
 color_1 = "#D4D4D2"
 color_2 = "#ffff00"
