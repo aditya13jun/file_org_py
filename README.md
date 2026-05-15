@@ -38,7 +38,7 @@ D:/temp/
 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_LINK
+git clone https://github.com/aditya13jun/file_org_py.git
 ```
 
 2. Open the project folder
