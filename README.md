@@ -46,7 +46,7 @@ git clone https://github.com/aditya13jun/file_org_py.git
 3. Run the Python file
 
 ```bash
-python fileorganizer.py
+python file_organizer.py
 ```
 
 ---
