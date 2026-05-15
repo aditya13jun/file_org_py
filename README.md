@@ -80,9 +80,8 @@ temp/
 │   └── server.log
 ```
 
----
+
 
 ## 👨‍💻 Author
 
 Aditya Harsh
-```
